@@ -1,0 +1,65 @@
+.wrapper{
+   max-width: 50rem%;
+   margin:0 auto
+}
+header{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+} 
+  header img{
+    height: 2,5rem;
+  }
+ header nav a:hover {
+    text-decoration: underline;
+ }
+
+  header nav a:not(:last-child){
+    margin-right: 5rem;
+ }
+main{
+    background:rgb(221, 216, 216) ;
+    padding: 5rem;
+    display: flex;
+}
+main section:first-child{
+    flex: 2;
+    padding-right: 0.5rem;
+}
+main section:last-child{
+    flex: 3;
+    padding-left: 0.5rem;
+}
+main :right{
+    text-align: right;
+}
+main section:last-child img{
+    width: 50%;
+    float: left;
+    padding: right:0.4rem;
+    padding:button:0.4rem;
+}
+.box-img{
+    background-image: url("assets/assets/background.svg");
+    width: 20;
+    height: 20;
+}
+.mergaite{
+    text-align: right;
+    height: 2,5rem;
+  }
+
+.navigation {
+    text-align:right;
+}
+
+a img .footer-social {
+    width: 25px;
+    height: 25px;
+}
+
+.date {
+    text-align:right;
+}
